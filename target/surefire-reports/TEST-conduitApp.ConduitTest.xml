@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="46.488" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy/target/test-classes:/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy/target/classes:/Users/mhondar/.m2/repository/com/intuit/karate/karate-junit5/1.1.0/karate-junit5-1.1.0.jar:/Users/mhondar/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar:/Users/mhondar/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/Users/mhondar/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/Users/mhondar/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/mhondar/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/mhondar/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/mhondar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/mhondar/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/Users/mhondar/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/mhondar/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/mhondar/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/mhondar/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/mhondar/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/mhondar/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/Users/mhondar/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/Users/mhondar/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/Users/mhondar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/mhondar/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mhondar/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mhondar/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/mhondar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/mhondar/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy/target/surefire/surefirebooter5335876915758953127.jar /Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy/target/surefire 2021-08-11T10-47-26_856-jvmRun1 surefire6372574479351074094tmp surefire_010529843490252152648tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy/target/test-classes:/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy/target/classes:/Users/mhondar/.m2/repository/com/intuit/karate/karate-junit5/1.1.0/karate-junit5-1.1.0.jar:/Users/mhondar/.m2/repository/com/intuit/karate/karate-core/1.1.0/karate-core-1.1.0.jar:/Users/mhondar/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/Users/mhondar/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/Users/mhondar/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/Users/mhondar/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/mhondar/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/mhondar/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/mhondar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/mhondar/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/Users/mhondar/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/mhondar/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/mhondar/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/mhondar/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/mhondar/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/mhondar/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/Users/mhondar/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/Users/mhondar/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/Users/mhondar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/mhondar/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mhondar/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mhondar/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/mhondar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/mhondar/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mhondar"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy/target/surefire/surefirebooter5335876915758953127.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="mhondar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/mhondar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/tg/jc73wlq11zj1z6940g6nkrt00000gn/T/"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/Users/mhondar/Documents/AUTOMATIZACION/KARATE DSL/Angular Project/KarateUdemy"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mhondar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="[1:6] Get all tags" classname="conduitApp/feature/HomePage" time="31.419">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduitApp/feature/HomePage.feature:8
+]]></failure>
+    <system-out><![CDATA[10:47:28.279 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:47:29.208 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:47:29.446 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:47:59.722 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+10:47:59.723 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:8
+When method Get
+http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduitApp/feature/HomePage.feature:8
+]]></system-out>
+  </testcase>
+  <testcase name="[2:15] get 10 articles from the page" classname="conduitApp/feature/HomePage" time="14.397">
+    <system-out><![CDATA[10:47:59.742 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:47:59.795 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:48:13.565 [main] DEBUG com.intuit.karate - response time in milliseconds: 13767
+1 < 200
+1 < Date: Wed, 11 Aug 2021 14:48:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"bb7b017bba89a8d87b205eae464eb488"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: ae5ce2ca-d6a3-4e39-acb5-9d38f6014142
+1 < x-runtime: 13.093545
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XaXhErkjr0N0fCot99jbo%2FGM%2BbHQjHXlBfz%2BfvpsuuxthB%2FNyrv3qrAmaO0CPj%2BT4G4sJaULoRnc7ve5LAXMFRua2z5HUMu46ljX3%2Bg7uqHLs80y44vwszyJryCQAA8x53IKFiIWEgDNFb56aA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 67d243286f7bf7c6-EZE
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-8q7cfm","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T14:15:25.766Z","updatedAt":"2021-08-11T14:15:25.766Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy030684685","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"rtrt","slug":"rtrt-q1noxv","body":"erwweew","createdAt":"2021-08-11T13:51:00.899Z","updatedAt":"2021-08-11T13:51:00.899Z","tagList":[],"description":"werwerw","author":{"username":"bo666666","bio":"11111111111","image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"First article","slug":"first-article-g6ktxp","body":"Hello world","createdAt":"2021-08-11T13:47:01.060Z","updatedAt":"2021-08-11T13:47:01.060Z","tagList":[],"description":"This is description for article","author":{"username":"Cypress_Tester","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"uhkkh","slug":"uhkkh-wxym67","body":"rr","createdAt":"2021-08-11T13:46:39.792Z","updatedAt":"2021-08-11T13:46:39.792Z","tagList":[],"description":"rrr","author":{"username":"Cypress_Tester","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-vdo2za","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T13:15:40.709Z","updatedAt":"2021-08-11T13:15:40.709Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy867429983","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-sj28j5","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T13:12:43.804Z","updatedAt":"2021-08-11T13:12:43.804Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy191450009","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grazdan mo Ullhor","slug":"grazdan-mo-ullhor-jw55um","body":"Nothing burns like the cold.","createdAt":"2021-08-11T13:02:38.225Z","updatedAt":"2021-08-11T13:02:38.225Z","tagList":[],"description":"Myr","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"TomToo","slug":"tomtoo-6p3lem","body":"All dwarfs are bastards in their father's eyes","createdAt":"2021-08-11T13:01:49.233Z","updatedAt":"2021-08-11T13:01:49.233Z","tagList":[],"description":"Gulltown","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Some Article","slug":"some-article-1bs6iw","body":"Some text","createdAt":"2021-08-11T13:01:43.350Z","updatedAt":"2021-08-11T13:01:43.350Z","tagList":[],"description":"Some description","author":{"username":"Hanna3124","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Andrew Estermont","slug":"andrew-estermont-r4rrxv","body":"Do the dead frighten you?","createdAt":"2021-08-11T12:59:07.335Z","updatedAt":"2021-08-11T12:59:07.335Z","tagList":[],"description":"Oldtown","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/HomePage.feature
+scenarios:  2 | passed:  1 | failed:  1 | time: 44,3004
+---------------------------------------------------------
+
+Karate version: 1.1.0
+======================================================
+elapsed:  46,00 | threads:    1 | thread time: 44,30 
+features:     1 | skipped:    0 | efficiency: 0,96
+scenarios:    2 | passed:     1 | failed: 1
+======================================================
+>>> failed features:
+http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduitApp/feature/HomePage.feature:8
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///Users/mhondar/Documents/AUTOMATIZACION/KARATE%20DSL/Angular%20Project/KarateUdemy/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

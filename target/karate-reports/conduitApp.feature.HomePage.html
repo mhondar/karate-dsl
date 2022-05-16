@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>conduitApp.feature.HomePage</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-08-11 10:48:13 a. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Get all tags</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:15]"><span>[2:15]</span> <span>get 10 articles from the page</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduitApp/feature/HomePage.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test for the home page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Get all tags</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>30473</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">10:47:29.211 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref failed">8</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell failed">30472</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">10:47:29.447 request:
+1 &gt; GET https://conduit.productionready.io/api/tags
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:47:59.722 java.net.SocketTimeoutException: Read timed out, http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+10:47:59.723 classpath:conduitApp/feature/HomePage.feature:8
+When method Get
+http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduitApp/feature/HomePage.feature:8
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref skipped">9</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:15]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:15]</span>
+                <span class="scenario-name">get 10 articles from the page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>13827</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:15]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">10:47:59.742 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>params { limit: 10, offset:0 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">46</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13780</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">10:47:59.795 request:
+1 &gt; GET https://conduit.productionready.io/api/articles?offset=0&amp;limit=10
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:48:13.566 response time in milliseconds: 13767
+1 &lt; 200
+1 &lt; Date: Wed, 11 Aug 2021 14:48:13 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;bb7b017bba89a8d87b205eae464eb488&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: ae5ce2ca-d6a3-4e39-acb5-9d38f6014142
+1 &lt; x-runtime: 13.093545
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=XaXhErkjr0N0fCot99jbo%2FGM%2BbHQjHXlBfz%2BfvpsuuxthB%2FNyrv3qrAmaO0CPj%2BT4G4sJaULoRnc7ve5LAXMFRua2z5HUMu46ljX3%2Bg7uqHLs80y44vwszyJryCQAA8x53IKFiIWEgDNFb56aA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 67d243286f7bf7c6-EZE
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+{&quot;articles&quot;:[{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-8q7cfm&quot;,&quot;body&quot;:&quot;This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-11T14:15:25.766Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T14:15:25.766Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy030684685&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;rtrt&quot;,&quot;slug&quot;:&quot;rtrt-q1noxv&quot;,&quot;body&quot;:&quot;erwweew&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:51:00.899Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:51:00.899Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;werwerw&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;bo666666&quot;,&quot;bio&quot;:&quot;11111111111&quot;,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;First article&quot;,&quot;slug&quot;:&quot;first-article-g6ktxp&quot;,&quot;body&quot;:&quot;Hello world&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:47:01.060Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:47:01.060Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;This is description for article&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cypress_Tester&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;uhkkh&quot;,&quot;slug&quot;:&quot;uhkkh-wxym67&quot;,&quot;body&quot;:&quot;rr&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:46:39.792Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:46:39.792Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;rrr&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Cypress_Tester&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-vdo2za&quot;,&quot;body&quot;:&quot;This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:15:40.709Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:15:40.709Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy867429983&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-sj28j5&quot;,&quot;body&quot;:&quot;This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:12:43.804Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:12:43.804Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy191450009&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Grazdan mo Ullhor&quot;,&quot;slug&quot;:&quot;grazdan-mo-ullhor-jw55um&quot;,&quot;body&quot;:&quot;Nothing burns like the cold.&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:02:38.225Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:02:38.225Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Myr&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;testkarate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;TomToo&quot;,&quot;slug&quot;:&quot;tomtoo-6p3lem&quot;,&quot;body&quot;:&quot;All dwarfs are bastards in their father&#39;s eyes&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:01:49.233Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:01:49.233Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Gulltown&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;testkarate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Some Article&quot;,&quot;slug&quot;:&quot;some-article-1bs6iw&quot;,&quot;body&quot;:&quot;Some text&quot;,&quot;createdAt&quot;:&quot;2021-08-11T13:01:43.350Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T13:01:43.350Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Some description&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Hanna3124&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Andrew Estermont&quot;,&quot;slug&quot;:&quot;andrew-estermont-r4rrxv&quot;,&quot;body&quot;:&quot;Do the dead frighten you?&quot;,&quot;createdAt&quot;:&quot;2021-08-11T12:59:07.335Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-11T12:59:07.335Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Oldtown&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;testkarate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}],&quot;articlesCount&quot;:500}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

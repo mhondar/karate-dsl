@@ -1,0 +1,607 @@
+10:35:14.642 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:35:16.137 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+10:35:16.137 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+10:35:16.459 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:35:16.459 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+10:35:16.897 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 200
+1 < Date: Mon, 09 Aug 2021 14:35:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1619222928
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 1931
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FrQTLCbSVk2ZXUE7xgUz0BkNeSejMSqTheVlqNRmGcS%2FGLOv6AAe4RXyF%2BiE3ihlEMXyOC%2BDzk3R4dRw1W4FpL%2FMtPh%2BY5oA9YKIHJEbrlq%2FU%2Fz50v6HWvTif7VoNj1Dd9c%2FN2nWurFqfr0mUXyr"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 67c1b5d748afd2e0-EZE
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+10:35:16.929 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+2 > Accept-Encoding: gzip,deflate
+
+
+10:35:17.114 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 184
+2 < 200
+2 < Date: Mon, 09 Aug 2021 14:35:19 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1625172957
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 1455
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oqjT8rqsx%2BwNqqVzZ7wP3OulF%2F6y%2FMj08sAvNp7P8RxCjNl8CV3bC%2FV5WXNtr9QNdhbk4cIJtADdWqSZUY8hIKWBPVWZPYU9MIBErLPa%2F4zTda7r3PujxKH7XwI0OxBddtToQMSzunBi4spiHxd3"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 67c1b5d899d2f7be-EZE
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+10:35:17.265 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 806
+1 < 201
+1 < Date: Mon, 09 Aug 2021 14:35:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1628519745
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < cache-control: no-cache
+1 < pragma: no-cache
+1 < expires: -1
+1 < access-control-expose-headers: Location
+1 < location: http://jsonplaceholder.typicode.com/users/11
+1 < x-content-type-options: nosniff
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2eIBuVSNMKn1ShE65Kn7EQQEc46g8PLT6LHvhmiVzT8BEPsYBmVZrIT%2FHmdCPiE9n7SLFX5uIVHv6uitbOSKOxTBBcM1DNFSBx8NeBHQ9u52ta17dY2eTTleoTJfGv1ATPv8zm83w2Xbf%2FCXujAe"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 67c1b5d74f59f7ba-EZE
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+10:35:17.271 [pool-1-thread-2] INFO  com.intuit.karate - [print] created id is:  11 
+10:35:18.067 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+19:19:03.407 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:19:03.413 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628637543413
+19:53:01.333 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:53:01.338 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628639581338
+19:59:26.779 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:59:26.783 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628639966783
+20:05:10.196 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:05:10.201 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628640310201
+20:06:01.855 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:06:01.860 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628640361860
+20:07:00.198 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:07:00.202 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628640420202
+10:09:28.943 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:09:28.948 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628690968948
+10:18:24.395 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:18:24.400 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628691504400
+10:19:01.475 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:19:01.480 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628691541480
+10:19:13.346 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:19:13.350 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628691553350
+10:21:00.574 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:21:00.580 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628691660579
+10:38:13.719 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:38:13.724 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628692693724
+10:39:26.645 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:39:26.650 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628692766649
+10:39:57.150 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:39:57.155 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1628692797155
+10:45:24.437 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:45:25.417 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:45:25.715 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:45:31.006 [main] DEBUG com.intuit.karate - response time in milliseconds: 5290
+1 < 200
+1 < Date: Wed, 11 Aug 2021 14:45:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"e7e78f3b6c872c7258ec686aad68f7e2"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 1b93b51b-d8cb-4d74-8b97-2edeef2f0178
+1 < x-runtime: 4.362874
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FsuzC3V%2BZGmxpjnlECQzJNAyQWktkzCrsechdAvYMs5NwOracUpGH3UkHHNGwuD2eF7IMx6HemNm8H9fW4UvDwg3CNgXtvZa6yZ2ZcIRaPnKmxnWwP4QH2l8cZgUXKaWx2hWQcdTq5MrZryi4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 67d23f66c95274fb-EZE
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"tags":["Сartооn","bоndаgе","Віg Dісk","рublіс","hеntаі","Віg Аss","Lеsbіаn","Fеmаlе Оrgаsm","МІLF","Tееn","Thrееsоmе","Аmаtеur","Jаpаnеsе","Оld/Yоung","аnаl","Mаturе","Bіg Тіts","Еbоnу","gау","russіаn"]}
+10:45:31.058 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:10
+And match response.tags contains ['cars, 'baby']
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - cars,  (LIST:LIST)
+  ["Сartооn","bоndаgе","Віg Dісk","рublіс","hеntаі","Віg Аss","Lеsbіаn","Fеmаlе Оrgаsm","МІLF","Tееn","Thrееsоmе","Аmаtеur","Jаpаnеsе","Оld/Yоung","аnаl","Mаturе","Bіg Тіts","Еbоnу","gау","russіаn"]
+  ["cars, ","baby'"]
+
+    $[19] | not equal (STRING:STRING)
+    'russіаn'
+    'cars, '
+
+    $[18] | not equal (STRING:STRING)
+    'gау'
+    'cars, '
+
+    $[17] | not equal (STRING:STRING)
+    'Еbоnу'
+    'cars, '
+
+    $[16] | not equal (STRING:STRING)
+    'Bіg Тіts'
+    'cars, '
+
+    $[15] | not equal (STRING:STRING)
+    'Mаturе'
+    'cars, '
+
+    $[14] | not equal (STRING:STRING)
+    'аnаl'
+    'cars, '
+
+    $[13] | not equal (STRING:STRING)
+    'Оld/Yоung'
+    'cars, '
+
+    $[12] | not equal (STRING:STRING)
+    'Jаpаnеsе'
+    'cars, '
+
+    $[11] | not equal (STRING:STRING)
+    'Аmаtеur'
+    'cars, '
+
+    $[10] | not equal (STRING:STRING)
+    'Thrееsоmе'
+    'cars, '
+
+    $[9] | not equal (STRING:STRING)
+    'Tееn'
+    'cars, '
+
+    $[8] | not equal (STRING:STRING)
+    'МІLF'
+    'cars, '
+
+    $[7] | not equal (STRING:STRING)
+    'Fеmаlе Оrgаsm'
+    'cars, '
+
+    $[6] | not equal (STRING:STRING)
+    'Lеsbіаn'
+    'cars, '
+
+    $[5] | not equal (STRING:STRING)
+    'Віg Аss'
+    'cars, '
+
+    $[4] | not equal (STRING:STRING)
+    'hеntаі'
+    'cars, '
+
+    $[3] | not equal (STRING:STRING)
+    'рublіс'
+    'cars, '
+
+    $[2] | not equal (STRING:STRING)
+    'Віg Dісk'
+    'cars, '
+
+    $[1] | not equal (STRING:STRING)
+    'bоndаgе'
+    'cars, '
+
+    $[0] | not equal (STRING:STRING)
+    'Сartооn'
+    'cars, '
+
+classpath:conduitApp/feature/HomePage.feature:10
+10:45:31.083 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:45:31.090 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:45:31.831 [main] DEBUG com.intuit.karate - response time in milliseconds: 741
+1 < 200
+1 < Date: Wed, 11 Aug 2021 14:45:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"bb7b017bba89a8d87b205eae464eb488"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 5911b1cd-d303-4f28-bbc6-dc1d7d4e191c
+1 < x-runtime: 0.210205
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MnhVJSpGOfSXcfLEQHdVBjd4duD598tHhWSDN7Vc3LpOOAZDtCX0Ux%2BZU%2FOMxWplRXKpitjgN0%2FF1Ox%2FqM2pnBO39N4uFA4EUFD1Cyf6mBz%2Fgbb0NrmYuVUEfF49cLiSJllkaG0IaGI%2FAOojXg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 67d23f871fea74df-EZE
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-8q7cfm","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T14:15:25.766Z","updatedAt":"2021-08-11T14:15:25.766Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy030684685","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"rtrt","slug":"rtrt-q1noxv","body":"erwweew","createdAt":"2021-08-11T13:51:00.899Z","updatedAt":"2021-08-11T13:51:00.899Z","tagList":[],"description":"werwerw","author":{"username":"bo666666","bio":"11111111111","image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"First article","slug":"first-article-g6ktxp","body":"Hello world","createdAt":"2021-08-11T13:47:01.060Z","updatedAt":"2021-08-11T13:47:01.060Z","tagList":[],"description":"This is description for article","author":{"username":"Cypress_Tester","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"uhkkh","slug":"uhkkh-wxym67","body":"rr","createdAt":"2021-08-11T13:46:39.792Z","updatedAt":"2021-08-11T13:46:39.792Z","tagList":[],"description":"rrr","author":{"username":"Cypress_Tester","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-vdo2za","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T13:15:40.709Z","updatedAt":"2021-08-11T13:15:40.709Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy867429983","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-sj28j5","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T13:12:43.804Z","updatedAt":"2021-08-11T13:12:43.804Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy191450009","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grazdan mo Ullhor","slug":"grazdan-mo-ullhor-jw55um","body":"Nothing burns like the cold.","createdAt":"2021-08-11T13:02:38.225Z","updatedAt":"2021-08-11T13:02:38.225Z","tagList":[],"description":"Myr","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"TomToo","slug":"tomtoo-6p3lem","body":"All dwarfs are bastards in their father's eyes","createdAt":"2021-08-11T13:01:49.233Z","updatedAt":"2021-08-11T13:01:49.233Z","tagList":[],"description":"Gulltown","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Some Article","slug":"some-article-1bs6iw","body":"Some text","createdAt":"2021-08-11T13:01:43.350Z","updatedAt":"2021-08-11T13:01:43.350Z","tagList":[],"description":"Some description","author":{"username":"Hanna3124","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Andrew Estermont","slug":"andrew-estermont-r4rrxv","body":"Do the dead frighten you?","createdAt":"2021-08-11T12:59:07.335Z","updatedAt":"2021-08-11T12:59:07.335Z","tagList":[],"description":"Oldtown","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+10:47:28.279 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:47:29.208 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:47:29.446 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:47:59.722 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+10:47:59.723 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:8
+When method Get
+http call failed after 30468 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduitApp/feature/HomePage.feature:8
+10:47:59.742 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:47:59.795 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:48:13.565 [main] DEBUG com.intuit.karate - response time in milliseconds: 13767
+1 < 200
+1 < Date: Wed, 11 Aug 2021 14:48:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"bb7b017bba89a8d87b205eae464eb488"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: ae5ce2ca-d6a3-4e39-acb5-9d38f6014142
+1 < x-runtime: 13.093545
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XaXhErkjr0N0fCot99jbo%2FGM%2BbHQjHXlBfz%2BfvpsuuxthB%2FNyrv3qrAmaO0CPj%2BT4G4sJaULoRnc7ve5LAXMFRua2z5HUMu46ljX3%2Bg7uqHLs80y44vwszyJryCQAA8x53IKFiIWEgDNFb56aA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 67d243286f7bf7c6-EZE
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-8q7cfm","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T14:15:25.766Z","updatedAt":"2021-08-11T14:15:25.766Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy030684685","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"rtrt","slug":"rtrt-q1noxv","body":"erwweew","createdAt":"2021-08-11T13:51:00.899Z","updatedAt":"2021-08-11T13:51:00.899Z","tagList":[],"description":"werwerw","author":{"username":"bo666666","bio":"11111111111","image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"First article","slug":"first-article-g6ktxp","body":"Hello world","createdAt":"2021-08-11T13:47:01.060Z","updatedAt":"2021-08-11T13:47:01.060Z","tagList":[],"description":"This is description for article","author":{"username":"Cypress_Tester","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"uhkkh","slug":"uhkkh-wxym67","body":"rr","createdAt":"2021-08-11T13:46:39.792Z","updatedAt":"2021-08-11T13:46:39.792Z","tagList":[],"description":"rrr","author":{"username":"Cypress_Tester","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-vdo2za","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T13:15:40.709Z","updatedAt":"2021-08-11T13:15:40.709Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy867429983","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-sj28j5","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-11T13:12:43.804Z","updatedAt":"2021-08-11T13:12:43.804Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy191450009","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grazdan mo Ullhor","slug":"grazdan-mo-ullhor-jw55um","body":"Nothing burns like the cold.","createdAt":"2021-08-11T13:02:38.225Z","updatedAt":"2021-08-11T13:02:38.225Z","tagList":[],"description":"Myr","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"TomToo","slug":"tomtoo-6p3lem","body":"All dwarfs are bastards in their father's eyes","createdAt":"2021-08-11T13:01:49.233Z","updatedAt":"2021-08-11T13:01:49.233Z","tagList":[],"description":"Gulltown","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Some Article","slug":"some-article-1bs6iw","body":"Some text","createdAt":"2021-08-11T13:01:43.350Z","updatedAt":"2021-08-11T13:01:43.350Z","tagList":[],"description":"Some description","author":{"username":"Hanna3124","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Andrew Estermont","slug":"andrew-estermont-r4rrxv","body":"Do the dead frighten you?","createdAt":"2021-08-11T12:59:07.335Z","updatedAt":"2021-08-11T12:59:07.335Z","tagList":[],"description":"Oldtown","author":{"username":"testkarate1","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
